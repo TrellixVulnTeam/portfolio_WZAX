@@ -39,6 +39,9 @@ body {
   color: transparent;
   margin-bottom: 4.8rem; }
 
+.section-heading span i {
+  color: #4286f4; }
+
 .section-heading_contact {
   text-align: center;
   margin-bottom: 0.7rem;

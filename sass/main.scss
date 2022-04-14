@@ -69,7 +69,11 @@ body {
   font-size: 3.4rem;
   -webkit-background-clip: text;
   color: transparent;
+
   margin-bottom: 4.8rem;
+}
+.section-heading span i {
+  color: $color--primary;
 }
 .section-heading_contact {
   text-align: center;

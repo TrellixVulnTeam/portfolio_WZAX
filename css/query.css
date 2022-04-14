@@ -100,6 +100,8 @@
       flex-direction: column; }
       .main-nav-list-link:link, .main-nav-list-link:visited {
         font-size: 3.2rem; }
+  .header {
+    overflow: hidden; }
   .card {
     height: auto;
     border-radius: 4px;
@@ -249,6 +251,8 @@
     gap: 10rem; }
   .footer__icons {
     padding-left: 0; }
+  .footer__copyright {
+    margin: 0 auto; }
   .operations {
     max-width: 70rem; }
   .skills-grid {
@@ -274,6 +278,11 @@
     font-size: 0.8rem; } }
 
 @media (max-width: 26em) {
+  .form__group:not(:last-child) {
+    margin-bottom: 2rem;
+    padding-top: 0.5rem;
+    padding-left: 3rem;
+    width: 40rem; }
   .particles {
     height: 47vh; }
   .header__text-box {
@@ -332,6 +341,10 @@
     font-size: 2.6rem; } }
 
 @media (max-width: 25em) {
+  .form__input {
+    width: 95%; }
+  .about-profile--pic {
+    top: -4rem; }
   .header__text-box h1 {
     font-size: 2.4rem; }
   .header__icons li {
@@ -341,8 +354,12 @@
     width: 11rem;
     margin-left: -4rem; }
   .about-text-para {
-    font-size: 1.6rem; } }
+    font-size: 1.6rem; }
+  .footer__copyright {
+    margin: 0 auto; } }
 
-@media (max-width: 24em) {
+@media (max-width: 26em) {
   .section-contact {
-    padding: 5rem 2rem; } }
+    padding: 5rem 2rem; }
+  .particles {
+    height: 30vh; } }
