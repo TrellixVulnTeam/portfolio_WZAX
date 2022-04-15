@@ -10,7 +10,7 @@
     /* Percentage of user's browser font-size setting */
     font-size: 56.25%; }
   .main-nav-list {
-    gap: 3rem; }
+    gap: 8rem; }
   .about-profile--pic {
     height: 22rem;
     width: 22rem; } }
@@ -20,6 +20,9 @@
     margin-top: -4rem; }
   .section {
     max-width: 100rem; } }
+
+.main-nav-list {
+  gap: 6rem; }
 
 @media (max-width: 59em) {
   html {
@@ -100,8 +103,6 @@
       flex-direction: column; }
       .main-nav-list-link:link, .main-nav-list-link:visited {
         font-size: 3.2rem; }
-  .header {
-    overflow: hidden; }
   .card {
     height: auto;
     border-radius: 4px;

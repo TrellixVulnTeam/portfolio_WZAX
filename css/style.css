@@ -15,7 +15,8 @@ body {
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  color: #555; }
+  color: #555;
+  overflow-x: hidden; }
 
 .section {
   max-width: 120rem;

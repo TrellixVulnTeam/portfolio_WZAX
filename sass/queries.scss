@@ -23,7 +23,7 @@ $color--lightblue: #1a3662;
   }
   .main-nav {
     &-list {
-      gap: 3rem;
+      gap: 8rem;
     }
   }
   .about {
@@ -44,7 +44,9 @@ $color--lightblue: #1a3662;
     max-width: 100rem;
   }
 }
-
+.main-nav-list {
+  gap: 6rem;
+}
 @media (max-width: 59em) {
   html {
     font-size: 50%;
@@ -173,9 +175,9 @@ $color--lightblue: #1a3662;
       }
     }
   }
-  .header {
-    overflow: hidden;
-  }
+  // .header {
+  //   overflow: hidden;
+  // }
   .card {
     height: auto;
     border-radius: 4px;
