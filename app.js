@@ -159,3 +159,20 @@ nav.addEventListener("click", function (e) {
     header.classList.toggle("nav-open");
   }
 });
+// experience section position
+const exp = document.getElementById("experience");
+
+const removeOverflow = (entries) => {
+  const [entry] = entries;
+  if (entry.isIntersecting) {
+    console.log("is intersecting");
+    document.body.classList.remove("body-container");
+  } else {
+    document.body.classList.add("body-container");
+  }
+};
+const expSection = new IntersectionObserver(removeOverflow, {
+  root: null,
+  threshold: 0.2,
+});
+expSection.observe(exp);
