@@ -134,7 +134,7 @@ expSection.observe(exp);
 const projects = [
   {
     title: "The Ipod Project",
-    img: "./assets/ipod.jpg",
+    // img: "./assets/ipod.jpg",
     list: ["ReactJs", "JSX", "CSS", "JavaScript"],
     backTitle: "Project Using",
     backPara: "React",
@@ -143,7 +143,7 @@ const projects = [
   },
   {
     title: "The Pokemon Project",
-    img: "./assets/ipod.jpg",
+    // img: "./assets/ipod.jpg",
     list: ["ReactJs", "JSX", "Advanced CSS", "JavaScript"],
     backTitle: "Project Using",
     backPara: "React",
@@ -152,7 +152,7 @@ const projects = [
   },
   {
     title: "Awesome Food Project",
-    img: "./assets/awesomefood.jpg",
+    // img: "./assets/awesomefood.jpg",
     list: ["ReactJs", "CSS", "JavaScript", "Web Design"],
     backTitle: "Project Using",
     backPara: "HTML, CSS, JS",
@@ -161,7 +161,7 @@ const projects = [
   },
   {
     title: "Recipe Finder Project",
-    img: "./assets/recipe.jpg",
+    // img: "./assets/recipe.jpg",
     list: ["ReactJs", "JSX", "CSS", "JavaScript"],
     backTitle: "Project Using",
     backPara: "React",
@@ -170,7 +170,7 @@ const projects = [
   },
   {
     title: "TODO NODE JS APP",
-    img: "./assets/todo.jpg",
+    // img: "./assets/todo.jpg",
     list: ["Mongo DB", "Express Js", "EJS", "NodeJs"],
     backTitle: "Project Using",
     backPara: "NodeJs",
@@ -179,7 +179,7 @@ const projects = [
   },
   {
     title: "DS & ALGO IN JAVA",
-    img: "./assets/java.jpg",
+    // img: "./assets/java.jpg",
     list: ["Sorting Algos", "Searching Algos", "Data Structures", "OOP"],
     backTitle: "DS & ALGO IN",
     backPara: "JAVA",
@@ -188,7 +188,7 @@ const projects = [
   },
   {
     title: "Awesome Code Bank",
-    img: "./assets/bankapp.jpg",
+    // img: "./assets/bankapp.jpg",
     list: ["Dates & Timers", "Array Methods", "Method Chaining", "Loops"],
     backTitle: "Bank App",
     backPara: "By Jonas",
