@@ -12,6 +12,8 @@ $color--sea-gradient-1: #30e8bf;
 $color--sea-gradient-2: #ff8235;
 $color--sunset-gradient-1: #ee0979;
 $color--sunset-gradient-2: #ff6a00;
+$color--ukranian-gradient-1: #004ff9;
+$color--ukranian-gradient-2: #fff94c;
 $color--multi-choice-one: #006778;
 $color--multi-choice-two: #525e75;
 $color--multi-choice-three: #733c3c;
@@ -41,7 +43,6 @@ body {
   line-height: 1.5;
   font-weight: 400;
   color: #555;
-  overflow-x: hidden;
 }
 .section {
   max-width: 120rem;
@@ -860,6 +861,13 @@ h2 .ph-book-open {
           $color--sunset-gradient-2
         );
       }
+      &-7 {
+        background-image: linear-gradient(
+          to right bottom,
+          $color--ukranian-gradient-1,
+          $color--ukranian-gradient-2
+        );
+      }
     }
   }
   &:hover &__side--front {
@@ -922,7 +930,15 @@ h2 .ph-book-open {
           $color--sunset-gradient-1,
           $color--sunset-gradient-2
         ),
-        url("../assets/java.png");
+        url("../assets/java.jpg");
+    }
+    &--7 {
+      background-image: linear-gradient(
+          to right bottom,
+          $color--ukranian-gradient-1,
+          $color--ukranian-gradient-2
+        ),
+        url("../assets/bankapp.jpg");
     }
   }
   &__heading {
@@ -979,6 +995,13 @@ h2 .ph-book-open {
         to right bottom,
         rgba($color--sunset-gradient-1, 0.85),
         rgba($color--sunset-gradient-2, 0.85)
+      );
+    }
+    &--7 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color--ukranian-gradient-1, 0.85),
+        rgba($color--ukranian-gradient-2, 0.85)
       );
     }
   }
