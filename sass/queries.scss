@@ -476,8 +476,8 @@ $color--lightblue: #1a3662;
   }
   .about {
     &-profile--pic {
-      height: 14rem;
-      width: 14rem;
+      height: 13rem;
+      width: 13rem;
     }
     &-text-para {
       font-size: 1.6rem;
@@ -570,23 +570,62 @@ $color--lightblue: #1a3662;
   }
   .about {
     &-profile--pic {
-      height: 11rem;
-      width: 11rem;
+      height: 10rem;
+      width: 10rem;
       margin-left: -4rem;
+      top: -0.9rem;
     }
+
     &-text-para {
       font-size: 1.6rem;
     }
+  }
+  .contact .form__input {
+    width: 50%;
   }
   .footer__copyright {
     margin: 0 auto;
   }
 }
-@media (max-width: 26em) {
-  .section-contact {
-    padding: 5rem 2rem;
+@media (max-width: 22em) {
+  .card__heading {
+    font-size: 1.6rem;
+
+    &-span {
+      padding: 1.2rem 0.6rem;
+    }
   }
-  .particles {
-    height: 30vh;
+  .skills {
+    &-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  .contact .form__input {
+    width: 45%;
+  }
+}
+@media (max-width: 20.5em) {
+  .contact .form__input {
+    width: 40%;
+  }
+  .form {
+    &__input {
+      font-size: 1.2rem;
+    }
+    &__group:not(:last-child) {
+      margin-bottom: 2rem;
+      padding-top: 0.5rem;
+      padding-left: 1rem;
+    }
+  }
+}
+@media (max-width: 19.5em) {
+  .contact__heading {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 19.5em) {
+  .contact__heading {
+    font-size: 1.8rem;
   }
 }
