@@ -21,9 +21,6 @@
   .section {
     max-width: 100rem; } }
 
-.main-nav-list {
-  gap: 6rem; }
-
 @media (max-width: 59em) {
   html {
     font-size: 50%; }
@@ -357,28 +354,28 @@
     top: -0.9rem; }
   .about-text-para {
     font-size: 1.6rem; }
+  .section-contact {
+    padding: 3rem 4rem; }
   .contact .form__input {
-    width: 50%; }
+    width: 80%; }
   .footer__copyright {
     margin: 0 auto; } }
 
 @media (max-width: 22em) {
   .card__heading {
     font-size: 1.6rem; }
-    .card__heading__heading {
-      font-size: 1rem;
-      color: #1a3662;
-      width: 100%; }
     .card__heading-span {
       padding: 1.2rem 0.6rem; }
   .skills-grid {
     grid-template-columns: repeat(2, 1fr); }
   .contact .form__input {
-    width: 45%; } }
+    width: 80%; } }
 
 @media (max-width: 20.5em) {
   .contact .form__input {
-    width: 40%; }
+    width: 80%; }
+  .section-contact {
+    padding: 3rem 1rem; }
   .form__input {
     font-size: 1.2rem; }
   .form__group:not(:last-child) {
@@ -393,3 +390,13 @@
 @media (max-width: 19.5em) {
   .contact__heading {
     font-size: 1.8rem; } }
+
+@media (max-width: 18em) {
+  .contact .form__input {
+    width: 80%; } }
+
+@media (max-width: 17.5em) {
+  .contact .form__input {
+    width: 80%; }
+  .section-contact {
+    padding: 3rem 0rem; } }
