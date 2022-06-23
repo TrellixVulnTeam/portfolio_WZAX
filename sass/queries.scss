@@ -28,8 +28,8 @@ $color--lightblue: #1a3662;
   }
   .about {
     &-profile--pic {
-      height: 22rem;
-      width: 22rem;
+      height: 16rem;
+      width: 16rem;
     }
   }
 }
@@ -44,9 +44,7 @@ $color--lightblue: #1a3662;
     max-width: 100rem;
   }
 }
-// .main-nav-list {
-//   gap: 6rem;
-// }
+
 @media (max-width: 59em) {
   html {
     font-size: 50%;
@@ -91,8 +89,9 @@ $color--lightblue: #1a3662;
 @media (max-width: 53.5em) {
   .about {
     &-profile--pic {
-      height: 18rem;
-      width: 18rem;
+      height: 16rem;
+      width: 16rem;
+      margin-top: -2rem;
     }
   }
   .section-heading {
@@ -248,7 +247,7 @@ $color--lightblue: #1a3662;
   }
   .about {
     &-profile--pic {
-      margin-left: -1rem;
+      // margin-left: -1rem;
     }
   }
   .operations {
@@ -260,15 +259,16 @@ $color--lightblue: #1a3662;
 }
 //
 @media (max-width: 42em) {
-  .about {
-    &-profile--pic {
-      height: 17rem;
-      width: 17rem;
-      & img {
-        margin-left: 7rem;
-      }
-    }
-  }
+  // .about {
+  //   &-profile--pic {
+  //     height: 12rem;
+  //     width: 12rem;
+  //     & img {
+  //       height: 18rem;
+  //       width: 18rem;
+  //     }
+  //   }
+  // }
   .slide {
     width: 100%;
     left: 25%;
@@ -332,8 +332,8 @@ $color--lightblue: #1a3662;
     }
     .about {
       &-profile--pic {
-        height: 16rem;
-        width: 16rem;
+        // height: 12rem;
+        // width: 12rem;
       }
     }
   }
@@ -436,15 +436,26 @@ $color--lightblue: #1a3662;
   }
   .about {
     &-profile--pic {
-      height: 16rem;
-      width: 16rem;
+      // height: 11rem;
+      // width: 11rem;
+      margin-top: -12rem;
       & img {
-        margin-left: 6rem;
+        height: 19rem;
+        width: 18rem;
       }
     }
   }
 }
 @media (max-width: 31em) {
+  .about {
+    &-profile--pic {
+      margin-top: -8rem;
+      & img {
+        height: 17rem;
+        width: 17rem;
+      }
+    }
+  }
   .particles {
     height: 50vh;
   }
@@ -477,6 +488,10 @@ $color--lightblue: #1a3662;
     &-profile--pic {
       height: 13rem;
       width: 13rem;
+      & img {
+        height: 14rem;
+        width: 14rem;
+      }
     }
     &-text-para {
       font-size: 1.6rem;
@@ -563,7 +578,11 @@ $color--lightblue: #1a3662;
     width: 95%;
   }
   .about-profile--pic {
-    top: -4rem;
+    top: 1rem;
+    & img {
+      height: 12rem;
+      width: 12rem;
+    }
   }
   .header__text-box {
     h1 {
@@ -577,8 +596,8 @@ $color--lightblue: #1a3662;
     &-profile--pic {
       height: 10rem;
       width: 10rem;
-      margin-left: -4rem;
-      top: -0.9rem;
+      // margin-left: -4rem;
+      // top: -0.9rem;
     }
 
     &-text-para {

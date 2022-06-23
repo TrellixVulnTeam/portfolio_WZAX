@@ -203,45 +203,43 @@ body {
 
 /* About section */
 .about-section {
-  margin-top: -5rem; }
+  margin-top: -20rem; }
 
 .about {
   position: relative;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  justify-items: center;
-  gap: 1rem; }
+  display: block; }
   .about-text-para {
     font-size: 1.8rem;
-    margin-top: -5rem; }
+    margin-top: 5rem; }
   .about--animated {
     /* the backwards set the o% properties to it automatically */
     animation-fill-mode: backwards; }
   .about-profile--pic {
-    height: 24rem;
-    width: 24rem;
+    height: 18rem;
+    width: 18rem;
     position: relative;
-    display: inline-block;
-    margin-top: -4.5vh;
-    transform: translate(-35%, -50%);
-    text-align: center; }
+    display: block;
+    margin: auto; }
     .about-profile--pic img:hover {
       transform: translateY(-2rem); }
     .about-profile--pic img {
-      height: 100%;
-      width: 100%;
+      display: block;
+      height: 20rem;
+      width: 20rem;
+      margin-top: -10rem;
       border-radius: 50%;
       border: 1px solid lightgrey;
-      box-shadow: 1px 3px 6px 6px #1a3662;
-      z-index: 1;
-      margin-left: 8rem; }
+      box-shadow: 1px 3px 6px 6px #1a3662; }
     .about-profile--pic:hover::after {
       transform: scaleX(2.4) scaleY(1.1);
       opacity: 0; }
 
+.center-btn {
+  text-align: center; }
+
 .btn:link,
 .btn:visited {
-  display: block;
+  display: inline-block;
   padding: 1rem 2rem;
   text-decoration: none;
   border-radius: 10rem;
