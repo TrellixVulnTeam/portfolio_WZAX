@@ -31,6 +31,9 @@ $color--lightblue: #1a3662;
       height: 16rem;
       width: 16rem;
     }
+    & img {
+      margin-top: -2rem;
+    }
   }
 }
 
@@ -38,6 +41,12 @@ $color--lightblue: #1a3662;
   .about {
     &-profile--pic {
       margin-top: -4rem;
+    }
+    &-text-para {
+      margin-top: 6rem;
+    }
+    & img {
+      margin-top: -3rem;
     }
   }
   .section {
@@ -259,16 +268,16 @@ $color--lightblue: #1a3662;
 }
 //
 @media (max-width: 42em) {
-  // .about {
-  //   &-profile--pic {
-  //     height: 12rem;
-  //     width: 12rem;
-  //     & img {
-  //       height: 18rem;
-  //       width: 18rem;
-  //     }
-  //   }
-  // }
+  .about {
+    &-text-para {
+      margin-top: 7rem;
+    }
+    &-profile--pic {
+      & img {
+        margin-top: -6rem;
+      }
+    }
+  }
   .slide {
     width: 100%;
     left: 25%;
@@ -328,12 +337,6 @@ $color--lightblue: #1a3662;
       }
       &__btn {
         margin-top: 2rem;
-      }
-    }
-    .about {
-      &-profile--pic {
-        // height: 12rem;
-        // width: 12rem;
       }
     }
   }
@@ -442,6 +445,7 @@ $color--lightblue: #1a3662;
       & img {
         height: 19rem;
         width: 18rem;
+        margin-top: 3rem;
       }
     }
   }

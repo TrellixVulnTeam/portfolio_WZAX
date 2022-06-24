@@ -13,11 +13,17 @@
     gap: 8rem; }
   .about-profile--pic {
     height: 16rem;
-    width: 16rem; } }
+    width: 16rem; }
+  .about img {
+    margin-top: -2rem; } }
 
 @media (max-width: 72em) {
   .about-profile--pic {
     margin-top: -4rem; }
+  .about-text-para {
+    margin-top: 6rem; }
+  .about img {
+    margin-top: -3rem; }
   .section {
     max-width: 100rem; } }
 
@@ -153,6 +159,10 @@
     max-width: 80rem; } }
 
 @media (max-width: 42em) {
+  .about-text-para {
+    margin-top: 7rem; }
+  .about-profile--pic img {
+    margin-top: -6rem; }
   .slide {
     width: 100%;
     left: 25%; }
@@ -256,7 +266,8 @@
     margin-top: -12rem; }
     .about-profile--pic img {
       height: 19rem;
-      width: 18rem; } }
+      width: 18rem;
+      margin-top: 3rem; } }
 
 @media (max-width: 31em) {
   .about-profile--pic {
